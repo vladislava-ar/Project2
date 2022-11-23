@@ -1,0 +1,111 @@
+@mixin h1 {
+    font-family: 'Visuelt Pro', 'sans serif';
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 70px;
+    color: #1A1A1A;
+}
+
+@mixin h1-phone {
+    font-size: 36px;
+    line-height: 45px;
+}
+
+@mixin h2 {
+    font-family: 'Visuelt Pro', 'sans serif';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    color: #1A1A1A;
+}
+
+@mixin h2-phone {
+    font-size: 26px;
+    line-height: 32px;
+}
+
+@mixin title {
+    font-family: 'Visuelt Pro', 'sans serif';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1A1A1A;
+}
+
+@mixin title-blue {
+    font-family: 'Visuelt Pro', 'sans serif';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #4754EB;
+}
+
+@mixin title-grey {
+    font-family: 'Visuelt Pro', 'sans serif';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #808080;
+}
+
+@mixin title-phone {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@mixin text-blue {
+    font-family: 'Visuelt Pro', 'sans serif';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4754EB;
+}
+
+@mixin text-grey {
+    font-family: 'Visuelt Pro', 'sans serif';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #808080;
+}
+
+@mixin text-white {
+    font-family: 'Visuelt Pro', 'sans serif';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@mixin text-phone {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+@mixin btn-blue {
+    background: #4754EB;
+    border-radius: 16px;
+    font-family: 'Visuelt Pro', 'sans serif';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@mixin btn-blue-phone {
+    @include text-phone;
+}
+
+@mixin btn-white {
+    background: #FFFFFF;
+    border-radius: 16px;
+    font-family: 'Visuelt Pro', 'sans serif';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4754EB;
+}
+
+@mixin btn-white-phone {
+    @include text-phone;
+}

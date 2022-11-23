@@ -1,0 +1,16 @@
+@import "../fonts/stylesheet.css";
+@import "../fonts/stylesheet.css";
+@import "../fonts/stylesheet.css";
+@import "../vars/vars.css";
+.first {
+  font-family: "Visuelt Pro";
+  font-weight: 500;
+  font-size: 56px;
+  color: #1A1A1A;
+}
+
+@media screen and (max-width: 360px) {
+  .first {
+    font-size: 36px;
+  }
+}/*# sourceMappingURL=globalStyle.css.map */

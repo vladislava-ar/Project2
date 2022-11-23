@@ -1,0 +1,1 @@
+{"version":3,"sources":["../header/header.scss","../main/main.scss","../footer/footer.scss","../vars/vars.scss","globalStyle.css"],"names":[],"mappings":"AAAQ,iCAAA;ACAA,iCAAA;ACAA,iCAAA;AACA,0BAAA;AFER;EGFI,0BAAA;EACA,gBAAA;EACA,eAAA;EACA,cAAA;ACKJ;;AJFA;EAEI;IGDA,eAAA;ECMF;AACF","file":"globalStyle.css"}
