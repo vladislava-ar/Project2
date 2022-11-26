@@ -2,15 +2,126 @@
 @import "../fonts/stylesheet.css";
 @import "../fonts/stylesheet.css";
 @import "../vars/vars.css";
-.first {
-  font-family: "Visuelt Pro";
-  font-weight: 500;
-  font-size: 56px;
-  color: #1A1A1A;
+.container {
+  width: 90%;
+  max-width: 1920px;
+  margin: auto;
 }
 
-@media screen and (max-width: 360px) {
-  .first {
-    font-size: 36px;
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    max-width: 1023px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+    max-width: 767px;
+  }
+}
+.container {
+  width: 90%;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.advantages {
+  margin-bottom: 100px;
+}
+.advantages__title {
+  font-family: "Visuelt Pro", "sans serif";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  color: #1A1A1A;
+  margin: 10% auto 5% 16px;
+}
+.advantages__box {
+  display: flex;
+  justify-content: space-between;
+}
+.advantages__box .box__item {
+  width: 30.8333333333%;
+}
+.advantages__box .box__item .box__header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.advantages__box .box__item .box__header .box__title {
+  font-family: "Visuelt Pro", "sans serif";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1A1A1A;
+  margin-left: 7px;
+}
+.advantages__box .box__item .box__description {
+  font-family: "Visuelt Pro", "sans serif";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #808080;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 680px) {
+  .container {
+    max-width: 1023px;
+  }
+  .advantages__title {
+    margin: 10% auto 2% 16px;
+  }
+  .advantages__box {
+    flex-direction: column;
+  }
+  .advantages__box .box__item {
+    padding-top: 40px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 679px) {
+  .container {
+    max-width: 679px;
+  }
+  .advantages__title {
+    font-size: 26px;
+    line-height: 32px;
+    margin: 10% auto 2% 4px;
+  }
+  .advantages__box {
+    flex-direction: column;
+  }
+  .advantages__box .box__item {
+    padding-top: 25px;
+    width: 100%;
+  }
+  .advantages__box .box__item .box__header {
+    height: 45px;
+  }
+  .advantages__box .box__item .box__header .box__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .advantages__box .box__item .box__description {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+.container {
+  width: 90%;
+  max-width: 1920px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    max-width: 1023px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+    max-width: 767px;
   }
 }/*# sourceMappingURL=globalStyle.css.map */
