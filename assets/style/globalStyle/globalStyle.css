@@ -108,6 +108,107 @@
     line-height: 19px;
   }
 }
+.sale {
+  display: flex;
+  align-items: center;
+}
+.sale__title {
+  font-family: "Visuelt Pro", "sans serif";
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 70px;
+  color: #1A1A1A;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.sale__form {
+  width: 100%;
+  height: 64px;
+  background: #F2F2F2;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+.sale__form .sale__input {
+  font-family: "Visuelt Pro", "sans serif";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #808080;
+  width: 70%;
+  height: 64px;
+  border: none;
+  outline: none;
+  background: #F2F2F2;
+}
+.sale__form .sale__button {
+  background: #4754EB;
+  border-radius: 16px;
+  font-family: "Visuelt Pro", "sans serif";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 143px;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+}
+.sale__agreement {
+  font-family: "Visuelt Pro", "sans serif";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #808080;
+  font-size: 12px;
+}
+.sale__agreement .sale__personaldata {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1211px) and (min-width: 680px) {
+  .sale {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  .sale .sale__input {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 679px) {
+  .sale {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .sale__title {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .sale .sale__image {
+    max-width: 100%;
+  }
+  .sale .sale__input {
+    font-size: 14px;
+    line-height: 19px;
+    width: 70%;
+    height: 56px;
+  }
+  .sale .sale__button {
+    background: #4754EB;
+    border-radius: 16px;
+    font-family: "Visuelt Pro", "sans serif";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 100px;
+    font-size: 12px;
+  }
+  .sale__agreement {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
 .container {
   width: 90%;
   max-width: 1920px;

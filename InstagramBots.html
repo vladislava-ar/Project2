@@ -20,12 +20,12 @@
     <main>
         <div class="container">
             <div class="advantages">
-                <div class="advantages__title">Наши преимущества</div> 
+                <p class="advantages__title">Наши преимущества</p> 
                 <div class="advantages__box box">
                     <div class="box__item">
                         <div class="box__header">
-                            <picture> 
-                                <source media="(min-width: 680px )" srcset="./assets/img/imgMain/images/emoji1L.png" />
+                            <picture class="box__image"> 
+                                <source media="(min-width: 680px)" srcset="./assets/img/imgMain/images/emoji1L.png" />
                                 <source media="(max-width: 679px)" srcset="./assets/img/imgMain/images/emoji1S.png" />
                                 <img src="./assets/img/imgMain/images/emoji1L.png" alt="emoji in glasses">
                             </picture>
@@ -35,7 +35,7 @@
                     </div>
                     <div class="box__item">
                         <div class="box__header">
-                            <picture> 
+                            <picture class="box__image"> 
                                 <source media="(min-width: 680px)" srcset="./assets/img/imgMain/images/emoji2L.png" />
                                 <source media="(max-width: 679px)" srcset="./assets/img/imgMain/images/emoji2S.png" />
                                 <img src="./assets/img/imgMain/images/emoji2L.png" alt="emoji tongue">
@@ -46,7 +46,7 @@
                     </div>
                     <d class="box__item">
                         <div class="box__header"> 
-                            <picture> 
+                            <picture class="box__image"> 
                                 <source media="(min-width: 680px)" srcset="./assets/img/imgMain/images/emoji3L.png" />
                                 <source media="( max-width: 679px)" srcset="./assets/img/imgMain/images/emoji3S.png" />
                                 <img src="./assets/img/imgMain/images/emoji3L.png" alt="emoji sunglasses">
@@ -54,6 +54,23 @@
                             <span class="box__title"> А главное, качественно </span>
                         </div>
                         <div class="box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</div>
+                    </div>
+                </div>
+            <div class="sale">
+                <picture class="sale__image"> 
+                    <source class="sale__image" media="(min-width: 680px)" srcset="./assets/img/imgMain/images/sale.png" />
+                    <source class="sale__image" media="( max-width: 679px)" srcset="./assets/img/imgMain/images/saleS.png" />
+                    <img class="sale__image" src="./assets/img/imgMain/images/sale.png" alt="sale">
+                </picture>
+                <div class="sale__box">
+                    <p class="sale__title">Получите самую выгодную цену на планете</p>
+                    <form class="sale__form" action="#">
+                        <input type="text" class="sale__input" name="name" placeholder="Введите свой e-mail">
+                        <button class="sale__button">Отправить</button>
+                    </form>
+                    <div class="sale__agreement">
+                        Нажимая на кнопку вы соглашаетесь на обработку <br>
+                        <a class="sale__personaldata" href="#"> персональных данных </a> 
                     </div>
                 </div>
             </div>
